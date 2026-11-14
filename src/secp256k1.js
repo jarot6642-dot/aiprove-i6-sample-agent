@@ -147,4 +147,4 @@ export function personalSign(privBytes, message) {
   return "0x" + hex(toBytes32(r)) + hex(toBytes32(s)) + v.toString(16).padStart(2, "0");
 }
 
-export { unhex };
+export { unhex, hex, keccak256 };
