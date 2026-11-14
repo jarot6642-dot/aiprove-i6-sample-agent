@@ -1,0 +1,7 @@
+# never commit keys, tokens, or transcripts containing session tokens
+*.key
+*.pem
+key*.txt
+*token*
+transcript*.log
+node_modules/
